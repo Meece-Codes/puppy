@@ -12,6 +12,10 @@ func Barks() string {
 	return "Woof! Woof! Woof!"
 }
 
+func Barking() string {
+	return Bark()
+}
+
 func BigBark() string {
 	return dog.WhenGrownUp(Bark())
 }
