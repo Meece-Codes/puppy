@@ -1,6 +1,8 @@
 package puppy
 
 import (
+	"fmt"
+
 	"github.com/Meece-Codes/dog"
 )
 
@@ -18,4 +20,8 @@ func Barking() string {
 
 func BigBark() string {
 	return dog.WhenGrownUp(Bark())
+}
+
+func from13() {
+	fmt.Println("I'm from version 1.1.0")
 }
